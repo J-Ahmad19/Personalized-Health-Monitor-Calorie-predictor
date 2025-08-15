@@ -1,0 +1,13 @@
+prefix=/Users/jawwadahmad/code/Personal-Health-&-Calorie-predictor/venv
+exec_prefix=/Users/jawwadahmad/code/Personal-Health-&-Calorie-predictor/venv
+libdir=/Users/jawwadahmad/code/Personal-Health-&-Calorie-predictor/venv/lib
+sharedlibdir=/Users/jawwadahmad/code/Personal-Health-&-Calorie-predictor/venv/lib
+includedir=/Users/jawwadahmad/code/Personal-Health-&-Calorie-predictor/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
